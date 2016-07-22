@@ -8,10 +8,10 @@ import java.util.Map;
 /**
  * Created by fenglei on 2016/7/19.
  */
-public class MapExample {
+public class HashMapType {
 
     public static void main(String[] args) {
-        MapExample mapExample = new MapExample();
+        HashMapType mapExample = new HashMapType();
         Map<String, String> map = mapExample.init();
 //        mapExample.loop(map);
         mapExample.loopAndDelete(map, "3");
