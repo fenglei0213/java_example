@@ -1,4 +1,4 @@
-package org.wind3stone.java.example.collection;
+package org.wind3stone.example.java.collection;
 
 import java.util.Arrays;
 import java.util.List;

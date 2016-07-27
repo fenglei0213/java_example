@@ -1,7 +1,8 @@
-package org.wind3stone.java.example.datatype;
+package org.wind3stone.example.java.datatype;
 
 import com.google.common.collect.Lists;
 import com.sun.deploy.util.StringUtils;
+import org.apache.commons.lang3.time.StopWatch;
 
 import java.util.List;
 
@@ -25,5 +26,18 @@ public class StringType {
 
     public static void String2List() {
 
+    }
+
+    public static void int2String() {
+        int a = 3;
+        StopWatch stopWatch = new StopWatch();
+        stopWatch.start();
+        String s = String.valueOf(a);
+        stopWatch.split();
+        System.out.println(stopWatch.getSplitNanoTime());
+        String w = a + "";
+        stopWatch.split();
+        System.out.println(stopWatch.getSplitNanoTime());
+        stopWatch.stop();
     }
 }

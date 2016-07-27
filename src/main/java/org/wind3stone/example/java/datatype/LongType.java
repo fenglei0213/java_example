@@ -1,4 +1,4 @@
-package org.wind3stone.java.example.datatype;
+package org.wind3stone.example.java.datatype;
 
 import java.util.Random;
 

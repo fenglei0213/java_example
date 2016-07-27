@@ -1,4 +1,4 @@
-package org.wind3stone.java.example.collection;
+package org.wind3stone.example.java.collection;
 
 import com.google.common.collect.Maps;
 
