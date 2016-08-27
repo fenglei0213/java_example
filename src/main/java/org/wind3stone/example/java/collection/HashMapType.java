@@ -33,18 +33,21 @@ public class HashMapType {
      * @param map
      */
     private void loop(Map<String, String> map) {
+//        for (String key : map.keySet()) {
+//            System.out.println("key:" + key + ",value:" + map.get(key));
+//        }
         // entrySet not keySet
         for (Map.Entry<String, String> mapItem : map.entrySet()) {
             System.out.print("key:" + mapItem.getKey() + ",value:" + mapItem.getValue() + "\n");
         }
         // another method
         // iterator
-        Iterator<String> iterator = map.keySet().iterator();
-        while (iterator.hasNext()) {
-            String key = iterator.next();
-            String value = map.get(key);
-            System.out.print("key:" + key + ",value:" + value + "\n");
-        }
+//        Iterator<String> iterator = map.keySet().iterator();
+//        while (iterator.hasNext()) {
+//            String key = iterator.next();
+//            String value = map.get(key);
+//            System.out.print("key:" + key + ",value:" + value + "\n");
+//        }
     }
 
     private void loopAndDelete(Map<String, String> map, String removeKey) {
